@@ -304,9 +304,13 @@ a.twitter {
 a.instagram {
   color: black;
 }
+#root{
+  position: 'absolute',
+}
+
 
 @media only screen and (max-width: 600px) {
-  body {
+  /* body {
     width: 100%;
   }
   .container {
@@ -329,7 +333,12 @@ a.instagram {
   }
   .header {
     width: 100%;
-  }
-  .styles_typicalWrapper__1_Uvh{width: 100%;}
-  .header h2{width: 100%;}
+  } */
+  
+  #root{min-width: 100%;
+    position: absolute}
+  
+  /* .header-logo{width: 100%;}
+  .styles_typicalWrapper__1_Uvh{width: 50%;}
+  .header h2{width: 100%;} */
 }
