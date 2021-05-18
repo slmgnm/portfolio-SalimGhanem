@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-SalimGhanem/static/css/main.cb658436.chunk.css",
+    "main.css": "/portfolio-SalimGhanem/static/css/main.f2c61ee5.chunk.css",
     "main.js": "/portfolio-SalimGhanem/static/js/main.4e22e718.chunk.js",
     "main.js.map": "/portfolio-SalimGhanem/static/js/main.4e22e718.chunk.js.map",
     "runtime-main.js": "/portfolio-SalimGhanem/static/js/runtime-main.67f3a161.js",
@@ -8,7 +8,7 @@
     "static/js/2.901d1001.chunk.js": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js",
     "static/js/2.901d1001.chunk.js.map": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js.map",
     "index.html": "/portfolio-SalimGhanem/index.html",
-    "static/css/main.cb658436.chunk.css.map": "/portfolio-SalimGhanem/static/css/main.cb658436.chunk.css.map",
+    "static/css/main.f2c61ee5.chunk.css.map": "/portfolio-SalimGhanem/static/css/main.f2c61ee5.chunk.css.map",
     "static/js/2.901d1001.chunk.js.LICENSE.txt": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js.LICENSE.txt",
     "static/media/CV.11bec3fe.pdf": "/portfolio-SalimGhanem/static/media/CV.11bec3fe.pdf",
     "static/media/Events.056f74ef.png": "/portfolio-SalimGhanem/static/media/Events.056f74ef.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.67f3a161.js",
     "static/js/2.901d1001.chunk.js",
-    "static/css/main.cb658436.chunk.css",
+    "static/css/main.f2c61ee5.chunk.css",
     "static/js/main.4e22e718.chunk.js"
   ]
 }
