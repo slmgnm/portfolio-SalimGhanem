@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-SalimGhanem/static/css/main.b4a9da79.chunk.css",
+    "main.js": "/portfolio-SalimGhanem/static/js/main.4e22e718.chunk.js",
+    "main.js.map": "/portfolio-SalimGhanem/static/js/main.4e22e718.chunk.js.map",
+    "runtime-main.js": "/portfolio-SalimGhanem/static/js/runtime-main.67f3a161.js",
+    "runtime-main.js.map": "/portfolio-SalimGhanem/static/js/runtime-main.67f3a161.js.map",
+    "static/js/2.901d1001.chunk.js": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js",
+    "static/js/2.901d1001.chunk.js.map": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js.map",
+    "index.html": "/portfolio-SalimGhanem/index.html",
+    "static/css/main.b4a9da79.chunk.css.map": "/portfolio-SalimGhanem/static/css/main.b4a9da79.chunk.css.map",
+    "static/js/2.901d1001.chunk.js.LICENSE.txt": "/portfolio-SalimGhanem/static/js/2.901d1001.chunk.js.LICENSE.txt",
+    "static/media/CV.11bec3fe.pdf": "/portfolio-SalimGhanem/static/media/CV.11bec3fe.pdf",
+    "static/media/Events.056f74ef.png": "/portfolio-SalimGhanem/static/media/Events.056f74ef.png",
+    "static/media/FreshAutoPesu.a6e04d2a.png": "/portfolio-SalimGhanem/static/media/FreshAutoPesu.a6e04d2a.png",
+    "static/media/colors.fd6ca94a.png": "/portfolio-SalimGhanem/static/media/colors.fd6ca94a.png",
+    "static/media/expU.e77f0e91.png": "/portfolio-SalimGhanem/static/media/expU.e77f0e91.png",
+    "static/media/fJoy.06214f9e.png": "/portfolio-SalimGhanem/static/media/fJoy.06214f9e.png",
+    "static/media/logo.9c7c68a2.png": "/portfolio-SalimGhanem/static/media/logo.9c7c68a2.png",
+    "static/media/weather.9f728ce6.png": "/portfolio-SalimGhanem/static/media/weather.9f728ce6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67f3a161.js",
+    "static/js/2.901d1001.chunk.js",
+    "static/css/main.b4a9da79.chunk.css",
+    "static/js/main.4e22e718.chunk.js"
+  ]
+}
