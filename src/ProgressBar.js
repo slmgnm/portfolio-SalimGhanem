@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import styled from "styled-components";
-
+import { motion } from "framer-motion";
 const Container = styled.div`
   background-color: white;
   height: 14px;
@@ -19,7 +19,6 @@ const BaseBox = styled.div`
   top: 0;
   border-radius: 1px;
   transition: width 10s ease-in-out;
-  
 `;
 
 const Background = styled(BaseBox)`
@@ -27,10 +26,16 @@ const Background = styled(BaseBox)`
   width: 100%;
 `;
 
-const Progress = styled(BaseBox)`
+const Progress = styled(motion.div)`
   background: #489db7;
   textsize: "16px";
-
+  display: flex;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 1px;
+  
   width: ${({ percent }) => percent}%;
 `;
 
@@ -56,7 +61,11 @@ export default function ProgressBar({ percent, lang }) {
           
           <Background />
 
-          <Progress percent={percent} text={`${percent}%`} />
+          <Progress  transition={{ duration: 2, }}
+          
+            initial={{ width: "0%" }}
+            animate={{ width:`${percent}%` }}
+          percent={percent} text={`${percent}%`} />
         </Container>
       </div>
     

@@ -10,17 +10,20 @@ body {
 }
 .container {
   width: 100%;
+  
 }
+
 
 .styles_typicalWrapper__1_Uvh {
   padding: 0 10%;
-  margin:0;
+  margin: 0;
   text-align: center;
   
 }
 .header h2 {
   color: #6f6f6f;
   /* padding-left: 10%; */
+  
   margin: 0;
   text-align: center;
 }
@@ -37,25 +40,26 @@ p {
   font-family: oswald;
   background-color: white;
   display: grid;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+  padding: 0;
+  margin: 0;
 
   width: 100%;
 }
 
 .header-logo {
-  /* position: relative; */
-width: 100%;
-text-align: center;
   
+  /* width: 100%; */
+  text-align: center;
 }
 .header-logo > img {
   background-color: #e6e7eb;
   text-align: left;
 
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
 
   border: 1vh solid rgb(255, 255, 255);
 }
@@ -304,40 +308,19 @@ a.twitter {
 a.instagram {
   color: black;
 }
-#root{
-  position: 'absolute',
+#root {
+  position: "absolute";
+  min-width: 600px;
 }
 
-
 @media only screen and (max-width: 600px) {
-  /* body {
-    width: 100%;
-  }
-  .container {
-    width: 100%;
-  }
-  .header {
-    width: 100%;
-  }
-  .about {
-    width: 100%;
-  }
-  .progress-grid {
-    width: 100%;
-  }
-  .nav-grid {
-    width: 100%;
-  }
-  .card-grid {
-    width: 100%;
-  }
-  .header {
-    width: 100%;
-  } */
   
-  #root{min-width: 100%;
-    position: absolute}
-  
+
+  #root {
+    /* min-width: 100%; */
+    position: absolute;
+  }
+
   /* .header-logo{width: 100%;}
   .styles_typicalWrapper__1_Uvh{width: 50%;}
   .header h2{width: 100%;} */

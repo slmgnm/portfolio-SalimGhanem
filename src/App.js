@@ -27,15 +27,18 @@ function App() {
       <Header />
       <About />
       <div className="progress-grid">
-      
-        <ProgressBar percent={40} lang="React" text= {percent}/>
+        <ProgressBar percent={40} lang="React" text={percent} />
         <ProgressBar percent={10} lang="JavaScript" />
         <ProgressBar percent={60} lang="HTML" />
         <ProgressBar percent={50} lang="CSS" />
-      
       </div>
       <FlashcardList flashcards={flashcards} />
-      
+      <div className="progress-grid">
+        <ProgBar percents={50} />
+        <ProgBar percents={40} />
+        <ProgBar percents={30} />
+        <ProgBar percents={10} />
+      </div>
     </div>
   );
 }
