@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import styled from "styled-components";
 import { motion } from "framer-motion";
+import styled from "styled-components";
+import FadeInWhenVisible from "./FadeInWhenVisible";
 const Container = styled.div`
   background-color: white;
   height: 14px;
@@ -35,40 +36,34 @@ const Progress = styled(motion.div)`
   left: 0;
   top: 0;
   border-radius: 1px;
-  
+
   width: ${({ percent }) => percent}%;
 `;
 
 export default function ProgressBar({ percent, lang }) {
   const percentage = 66;
-  
-  // useEffect(() => {
-
-  //   setPercent(percentage);
-  // });
-  // setPercent(value);
-  // setTimeout(() => setPercent(60), 1000);
-  // setTimeout(() => setPercent(70), 3000);
-  // setTimeout(() => setPercent(80), 6000);
-  // setTimeout(() => setPercent(90), 9000);
-  // setTimeout(() => setPercent(100), 10000);
 
   return (
-    
+    <FadeInWhenVisible>
       <div className="progress">
         <Container>
-          <div className="prog-title">{lang} <b>{`${percent}% `}</b> </div>
-          
+          <div className="prog-title">
+            {lang} <b>{`${percent}% `}</b>{" "}
+          </div>
+
           <Background />
 
-          <Progress  transition={{ duration: 2, }}
-          
+          <Progress
+            transition={{ duration: 2, type: "spring", delay: 1 }}
+            // animate={controls}
+
             initial={{ width: "0%" }}
-            animate={{ width:`${percent}%` }}
-          percent={percent} text={`${percent}%`} />
+            animate={{ width: `${percent}%` }}
+            percent={percent}
+            text={`${percent}%`}
+          />
         </Container>
       </div>
-    
-    
+    </FadeInWhenVisible>
   );
 }

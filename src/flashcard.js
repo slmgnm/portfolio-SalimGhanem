@@ -1,21 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import FadeInWhenVisible from "./FadeInWhenVisible";
 const Flashcard = ({ flashcard }) => {
   const [flip, setFlip] = useState(false);
-  // const [height, setHeight] = useState("initial");
-  // const frontEl = useRef();
-  // const backEl = useRef();
-  // const maxHieght = () => {
-  //   const frontHieght = frontEl.current.getBoundingClientRect().height;
-  //   const backHieght = backEl.current.getBoundingClientRect().height;
-  //   setHeight(() => Math.max(frontHieght, backHieght, 100));
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", maxHieght);
-  //   return () => window.removeEventListener("resize", maxHieght);
-  // }, []);
+ 
   return (
+    <FadeInWhenVisible>
     <div
       className={`card ${flip ? "flip" : ""}`}
       onMouseEnter={() => setFlip(!flip)}
@@ -33,20 +22,14 @@ const Flashcard = ({ flashcard }) => {
             <a href={flashcard.options} target="_blank">
               Preview
             </a>
-            {/* {flashcard.option}Preview */}
+            
           </button>
         </div>
       </div>
     </div>
+    </FadeInWhenVisible>
   );
 };
 
 export default Flashcard;
 
-{
-  /* <button className="btn">
-            <a href={CV} target="_blank">
-              Downloade my Resume
-            </a>
-          </button> */
-}
