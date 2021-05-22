@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faGithub,
   faInstagram,
+  faDownload,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function SocialFlow() {

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 
 import "./App.css";
 import CV from "./files/CV.pdf";
+import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   {
@@ -14,11 +17,30 @@ export default function About() {
             knowledge in Reactjs and Node.js mobie compliant websites with an
             emphasis on Search Engine Optimization(SEO) best practices.
           </p>
-          <button className="btn">
+
+          <motion.button
+            className="btn"
+            whileHover={{
+              scale: 1.05,
+              color: "snow",
+              backgroundColor: "#2d2e30",
+            }}
+            transition={{
+              duration: 0.4,
+            }}
+            whileTap={{ scale: 0.97 }}>
             <a href={CV} target="_blank">
-              Downloade my Resume
+              My Resume &nbsp;  
+               
+              
+              <FontAwesomeIcon
+                icon={faDownload}
+                
+                
+                size="x"
+              />
             </a>
-          </button>
+          </motion.button>
         </div>
       </div>
     );
