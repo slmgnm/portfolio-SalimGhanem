@@ -23,26 +23,25 @@ function App() {
   // const categoryEl = useRef();
   // const amountEl = useRef();
   return (
-    <div className="container">
+    <div className='container'>
       <SocialFlow />
-      
-        <Header />
-      
+
+      <Header />
+
       <FadeInWhenVisible>
         <About />
       </FadeInWhenVisible>
 
-      
-      <div className="progress-grid">
-        <ProgressBar percent={40} lang="React" text={percent} />
-        <ProgressBar percent={10} lang="JavaScript" />
-        <ProgressBar percent={60} lang="HTML" />
-        <ProgressBar percent={50} lang="CSS" />
+      <div className='progress-grid'>
+        <ProgressBar percent={40} lang='React' text={percent} />
+        <ProgressBar percent={60} lang='JavaScript' />
+        <ProgressBar percent={60} lang='HTML' />
+        <ProgressBar percent={60} lang='CSS' />
+        <ProgressBar percent={65} lang='HubL' />
+        <ProgressBar percent={50} lang='WordPress' />
       </div>
-      
-      
+
       <FlashcardList flashcards={flashcards} />
-      
     </div>
   );
 }
